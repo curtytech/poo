@@ -1,1 +1,8 @@
-init
+to init
+
+
+bun update
+
+bun run dev
+
+or bun run vite
