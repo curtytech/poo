@@ -1,8 +1,8 @@
 export class Pessoa { // Classe Pessoa
 
   // Atributos
-  nome: string;
-  idade: number;
+  public nome: string;
+  public idade: number;
   private cargo: string; // Exemplo de encapsulamento
 
   constructor(nome: string, idade: number, cargo: string) {
