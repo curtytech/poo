@@ -29,12 +29,12 @@ function App() {
   }
 
   function handleConsultarNotaPCD() {
-    const aluno = new AlunoPCD("Gustavo Silva", 15, "", 7);
+    const aluno = new AlunoPCD("Juliana Costa", 15, "", 7);
     setStudentMsgPCD(aluno.consultarNota()); 
   }
 
   function handleAlunoRegular() {
-    const aluno = new AlunoRegular("André", 18, "");
+    const aluno = new AlunoRegular("André Pereira", 18, "");
     // let msg = aluno.apresentar() + "\n";
     let msg = aluno.assistirAula() + "\n";
     msg += aluno.fazerProva();
@@ -42,7 +42,7 @@ function App() {
   }
 
   function handleAlunoEAD() {
-    const aluno = new AlunoEAD("Mariana", 22, "");
+    const aluno = new AlunoEAD("Mariana Batista", 22, "");
     // let msg = aluno.apresentar() + "\n";
     let msg = aluno.assistirAula() + "\n";
     msg += aluno.fazerProva();

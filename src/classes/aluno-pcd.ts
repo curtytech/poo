@@ -18,12 +18,4 @@ export class AlunoPCD extends Pessoa {
   }
 }
 
-// Testando o polimorfismo
-const pessoa = new Pessoa("Carlos", 25, "Professor");
-const alunoPCD = new AlunoPCD("Ana", 22, "Desenvolvedora", 9.5);
 
-console.log(pessoa.apresentar());  
-// Saída: "Olá, eu sou Carlos e tenho 25 anos e serei Professor."
-
-console.log(alunoPCD.apresentar());  
-// Saída: "Olá, eu sou Ana, tenho 22 anos, sou aluno PCD e serei Desenvolvedora."
